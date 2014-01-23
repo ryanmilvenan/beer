@@ -1,0 +1,81 @@
+body {
+	background-color:#70A9F4;
+}
+
+#main-box {
+	background-color: #505CE1;
+	height: 300px;
+	width: 510px;
+	border-radius: 5px;
+	margin: auto;
+}
+
+#add-beer {
+	/*Button Styling*/
+	background-color:#485BD9;
+	height:40px;
+	width:110px;
+	border: 3px solid #DBCD09;
+	border-radius: 5px;
+	display: inline-block;
+	position: absolute;
+	padding-top: 15px;
+	margin-top: 305px;
+	margin-left: 15px;
+
+	/*Text styling*/
+	font-family: Futura, Geneva, Arial;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+
+#get-beer {
+	/*Button Styling*/
+	background-color:#485BD9;
+	height:40px;
+	width:180px;
+	border: 3px solid #DBCD09;
+	border-radius: 5px;
+	display: inline-block;
+	position: absolute;
+	padding-top: 15px;
+	margin-top: 305px;
+	margin-left: 140px;
+
+	/*Text styling*/
+	font-family: Futura, Geneva, Arial;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+
+#update-likes {
+	/*Button Styling*/
+	background-color:#485BD9;
+	height:40px;
+	width:150px;
+	border: 3px solid #DBCD09;
+	border-radius: 5px;
+	display: inline-block;
+	position: absolute;
+	padding-top: 15px;
+	margin-top: 305px;
+	margin-left: 335px;
+
+	/*Text styling*/
+	font-family: Futura, Geneva, Arial;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+
+#beer {
+	position:fixed;
+}
+
+#beer-list {
+	font-family: Futura, Geneva, Arial;
+	color:white;
+	margin-left: 255px;
+}

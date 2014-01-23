@@ -4,20 +4,49 @@
     <title>The Cooler</title>
     <link type="text/css" rel="stylesheet" href="stylesheet.css"></link>
 </head>
-<body>
-	<div id="main-box">
-		<p id="add-beer"><b>Add Beer</b></p>
-		<p id="get-beer"><b>Get Cooler Contents</b></p>
-		<p id="update-likes"><b>Update "Likes"</b></p>
-		<img src="Beer.png" id="beer"></img>
-			<ol id="beer-list">
-			</ol>
-	</div>
-	
+	<body>
+		<header id="main-header">
+		    <h1>Cooler</h1>
+		    <p>Get your buzz on!</p>
+		</header>
+		<main id="main-box">
+            <h2>Beers</h2>
+            <img src="Beer.png" id="beer"/>
+            <ol id="beer-list">
+                <li>Heineken
+                <div id="stand-in-down"></div>
+                <div id="stand-in-up"></div>
+                </li>
+                    <ul>
+                        <li class="likes">Likes:</li>
+                        <li>10</li>
+                    </ul>
+                <li>Budweiser
+                <div id="stand-in-down"></div>
+                <div id="stand-in-up"></div>
+                </li>
+                    <ul>
+                        <li class="likes">Likes:</li>
+                        <li>5</li>
+                    </ul>
+                <li>Paulaner
+                <div id="stand-in-down"></div>
+                <div id="stand-in-up"></div>
+                </li>
+                    <ul>
+                        <li class="likes">Likes:</li>
+                        <li>8</li>
+                    </ul>
+            </ol>
+		</main>
+        <aside id="side-panel">
+            <p class="side-button" id="get-beers">Get Beers</p>
+            <p class="side-button" id="add-beer">Add Beer</p>
+        </aside>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <script src="http://ajax.cdnjs.com/ajax/libs/underscore.js/1.1.4/underscore-min.js"></script>
-    <script src="http://ajax.cdnjs.com/ajax/libs/backbone.js/0.3.3/backbone-min.js"></script>
-    <script src="script.js"></script>
-</body>
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	    <script src="http://ajax.cdnjs.com/ajax/libs/underscore.js/1.1.4/underscore-min.js"></script>
+	    <script src="http://ajax.cdnjs.com/ajax/libs/backbone.js/0.3.3/backbone-min.js"></script>
+	    <script src="script.js"></script>
+	</body>
 </html>
