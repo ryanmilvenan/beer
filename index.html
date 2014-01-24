@@ -13,30 +13,29 @@
             <h2>Beers</h2>
             <img src="Beer.png" id="beer"/>
             <ol id="beer-list">
-                <li>Heineken
-                <div id="stand-in-down"></div>
-                <div id="stand-in-up"></div>
-                </li>
+                <li class="beer-type">Heineken
+                    <img class="stand-in-down" />
+                    <img class="stand-in-up" />
                     <ul>
-                        <li class="likes">Likes:</li>
-                        <li>10</li>
+                        <li class="likes" data-likes='0'>Likes: <span class="like-num">0</span></li>
                     </ul>
-                <li>Budweiser
-                <div id="stand-in-down"></div>
-                <div id="stand-in-up"></div>
                 </li>
+
+                <li class="beer-type">Budweiser
+                    <img class="stand-in-down" />
+                    <img class="stand-in-up" />
                     <ul>
-                        <li class="likes">Likes:</li>
-                        <li>5</li>
+                        <li class="likes" data-likes='5'>Likes: <span class="like-num">5</span></li>
                     </ul>
-                <li>Paulaner
-                <div id="stand-in-down"></div>
-                <div id="stand-in-up"></div>
                 </li>
+
+                <li class="beer-type">Paulaner
+                    <img class="stand-in-down" />
+                    <img class="stand-in-up" />
                     <ul>
-                        <li class="likes">Likes:</li>
-                        <li>8</li>
+                        <li class="likes" data-likes='8'>Likes: <span class="like-num">8</span></li>
                     </ul>
+                </li>
             </ol>
 		</main>
         <aside id="side-panel">
@@ -44,15 +43,15 @@
             <p class="side-button" id="add-beer">Add Beer</p>
         </aside>
         <div id="add-beer-box">
-            <form id="beer-form">Beer:
+            <form class="beer-form">Beer:
                 <input id="beer-input" type=text placeholder="What's the name of the beer?"/>
             </form>
             <p>Do you like it?</p>
-            <div id="down"></div>
-            <div id="up"></div>
+            <img id="down" />
+            <img id="up" />
         </div>
 
-	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	    <script src="http://ajax.cdnjs.com/ajax/libs/underscore.js/1.1.4/underscore-min.js"></script>
 	    <script src="http://ajax.cdnjs.com/ajax/libs/backbone.js/0.3.3/backbone-min.js"></script>
 	    <script src="script.js"></script>

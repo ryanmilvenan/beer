@@ -72,12 +72,11 @@ body {
 #beer-list ul li{
   border: 1px dashed;
   display: inline;
+  width: 40%;
 }
 
-.likes {
-}
 
-#stand-in-down {
+.stand-in-down {
   height:20px;
   width: 20px;
   background-color:red;
@@ -85,7 +84,7 @@ body {
   float:right;
 }
 
-#stand-in-up {
+.stand-in-up {
   height:20px;
   width: 20px;
   background-color:green;
@@ -135,9 +134,10 @@ body {
   border-radius: 5px;
   margin-top: 5px;
   background-color: #505CE1;
+  display: none;
 }
 
-#beer-form {
+.beer-form {
   width:40%;
   border: 1px dashed white;
   margin-left: 20px;
